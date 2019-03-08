@@ -9,28 +9,29 @@ public class ChargeRequest {
         EUR, USD;
     }
     private String description;
-    private int amount; // cents
+    private int amount = 100; // cents
     private Currency currency;
-    private String stripeEmail;
+    private String stripeEmail = "a@gmail.com";
     private String stripeToken;
 	public Object getAmount() {
 		// TODO Auto-generated method stub
-		return null;
+		return amount;
 	}
 	public Object getCurrency() {
 		// TODO Auto-generated method stub
-		return null;
+		return currency;
 	}
 	public Object getDescription() {
 		// TODO Auto-generated method stub
-		return null;
+		return description;
 	}
 	public Object getStripeToken() {
 		// TODO Auto-generated method stub
-		return null;
+		return stripeToken;
 	}
 	public void setDescription(String string) {
 		// TODO Auto-generated method stub
+		this.description = "Checking";
 		
 	}
 	public void setCurrency(Currency usd) {
