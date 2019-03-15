@@ -31,9 +31,9 @@ public class ChargeRequest {
 	}
 	public void setDescription(String string) {
 		// TODO Auto-generated method stub
-		this.description = "Checking";
-		
+		this.description = "Checking";		
 	}
+	
 	public void setCurrency(Currency usd) {
 		// TODO Auto-generated method stub
 		this.currency = usd;
